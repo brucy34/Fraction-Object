@@ -8,6 +8,7 @@ int main()
 
    cout <<"Entrez le numerateur et le denominateur d'une fraction."<< endl;
    cin >>a;
+   cout <<a<<endl;
    cout <<"Entrez le numerateur et le denominateur d'une deuxieme fraction."<<endl;
    cin >>b;
 
