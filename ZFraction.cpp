@@ -35,9 +35,9 @@ void ZFraction::affiche(ostream& flux) const
 void ZFraction::lire (istream& flux) const
 {
    int m_numerateur,m_denominateur;
-   flux>>m_numerateur;
+   flux>>m_numerateur+m_denominateur;
 
-   flux>>m_denominateur;
+
 
 }
 
