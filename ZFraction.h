@@ -13,9 +13,9 @@ public:
     ZFraction();
 
     //Affichage
-    void affiche(std::ostream&  flux) const;
+    void affiche(std::ostream &flux) const;
     //Lecture
-    void lire(std::istream&  flux) const;
+    void lire(std::istream &in) const;
 
     //Opérateurs arithmétiques
     ZFraction& operator+=(ZFraction const& autre);

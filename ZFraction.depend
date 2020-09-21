@@ -10,10 +10,14 @@
 	"ZFraction.h"
 	<iostream>
 
-1598913756 source:c:\users\saintilma\desktop\fraction\main.cpp
+1600723619 source:c:\users\saintilma\desktop\fraction\main.cpp
 	<iostream>
 	"ZFraction.h"
 
-1598646102 c:\users\saintilma\desktop\fraction\zfraction.h
+1600724011 c:\users\saintilma\desktop\fraction\zfraction.h
+	<iostream>
+
+1600724285 source:c:\users\saintilma\desktop\fraction\zfraction.cpp
+	"ZFraction.h"
 	<iostream>
 

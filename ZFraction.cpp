@@ -32,10 +32,10 @@ void ZFraction::affiche(ostream& flux) const
     }
 }
 //lecture
-void ZFraction::lire (istream& flux) const
+void ZFraction::lire (istream &in) const
 {
    int m_numerateur,m_denominateur;
-   flux>>m_numerateur+m_denominateur;
+   in>>m_numerateur>>m_denominateur;
 
 
 
@@ -48,10 +48,10 @@ ostream& operator<<(ostream& flux, ZFraction const& fraction)
     return flux;
 }
 //Opérateur de sortie de flux
-istream& operator>>(istream& flux, ZFraction const& fraction)
+istream& operator>>(istream &in, ZFraction const& fraction)
 {
-    fraction.lire(flux);
-    return flux;
+    fraction.lire(in);
+    return in;
 
 }
 //Opérateurs arithmétiques
