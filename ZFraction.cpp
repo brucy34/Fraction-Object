@@ -7,6 +7,8 @@ ZFraction::ZFraction(int num, int den)
     :m_numerateur(num), m_denominateur(den)
 {
     simplifie();
+    m_numerateur;
+    m_denominateur;
 }
 
 ZFraction::ZFraction(int entier)
@@ -35,8 +37,8 @@ void ZFraction::affiche(ostream& flux) const
 void ZFraction::lire (istream &in) const
 {
 
-    ZFraction a;
-   in>>a;
+
+   in>>ZFraction();
 
 
 
