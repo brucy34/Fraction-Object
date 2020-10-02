@@ -38,7 +38,7 @@ void ZFraction::lire (istream &in) const
 {
 
 
-   in>>m_numerateur>>m_denominateur;
+   in>>m_numerateur>>'/'>>m_denominateur;
 
 
 
